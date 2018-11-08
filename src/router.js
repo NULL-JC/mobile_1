@@ -12,6 +12,7 @@ import Setting from './components/Setting.vue'
 // 3. 创建路由对象
 var router = new VueRouter({
   routes: [
+    { path: '/', redirect: '/home' },
     { path: '/home', component: HomeContainer },
     { path: '/consult', component: ConsultContainer },
     { path: '/activity', component: ActivityContainer },

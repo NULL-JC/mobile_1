@@ -2,7 +2,7 @@
   <div class="app-container">
 
     <!-- 顶部 Header 区域 -->
-    <mt-header fixed title="首页"></mt-header>
+    <mt-header fixed title="首页" style="background-color: #FF6631;"></mt-header>
 
     <!-- 中间路由 router-view 区域 -->
 
@@ -32,8 +32,6 @@
 			</router-link>
 		</nav>
 
-
-    <h1>这是 App 组件</h1>
   </div>
 </template>
 
