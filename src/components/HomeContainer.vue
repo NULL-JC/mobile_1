@@ -9,8 +9,32 @@
             
         </mt-swipe>
 
+        <!-- 九宫格区域 -->
+        <div class="mui-content">
+		        <ul class="mui-table-view mui-grid-view mui-grid-9">
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+		                    <img src="../images/ziyuan.png" alt="">
+		                    <div class="mui-media-body">活动</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+		                    <img src="../images/icon_fuwu.png" alt="">
+		                    <div class="mui-media-body">服务</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+		                    <img src="../images/icon_hulianwang.png" alt="">
+		                    <div class="mui-media-body">看世界</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+		                    <img src="../images/icon_guanggao.png" alt="">
+		                    <div class="mui-media-body">大事件</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+		                    <img src="../images/icon_jiaoyu.png" alt="">
+		                    <div class="mui-media-body">资源</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+		                    <img src="../images/icon_xiaoshou.png" alt="">
+		                    <div class="mui-media-body">报名</div></a></li>
+		            
+		        </ul> 
+		    </div> 
 
-        <h3>HomeContainer</h3>
+
     </div>
 </template>
 
@@ -59,5 +83,19 @@ export default {
     width: 100%;
     height: 100%;
   }
+}
+
+
+.mui-grid-view.mui-grid-9{
+  background-color: #fff;
+  img{
+    width: 40px;
+  }
+  .mui-media-body{
+    font-size: 13px;
+  }
+}
+.mui-grid-view.mui-grid-9 .mui-table-view-cell{
+  border: none;
 }
 </style>
